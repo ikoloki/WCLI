@@ -1,0 +1,20 @@
+* Measured Variables
+|                |                                                                   |      |      |                 |
+| Code           | Variables                                                         | link | path | Study, Journal, |
+|----------------+-------------------------------------------------------------------+------+------+-----------------|
+| Abortion       | legization and restrictions Abortion                              |      |      |                 |
+| IVF            | legalization and access to IVF                                    |      |      |                 |
+| Breast         | Breast Feeding & Pumping                                          |      |      |                 |
+| Mortality      | Birth Mortality                                                   |      |      |                 |
+| Poverty        | Poverty rate                                                      |      |      |                 |
+| Homeless       | Homelessness                                                      |      |      |                 |
+| Rape           | Rape Stats                                                        |      |      |                 |
+| Degrees        | Ratio Of women earning Batcholers Degrees                         |      |      |                 |
+| Pregnacy       | Average age of pregnacy                                           |      |      |                 |
+| LifeExpectancy | Average Life Expectancy                                           |      |      |                 |
+| Happiness      | Average happiness index                                           |      |      |                 |
+| Virginity      | Average age of loss of virginity                                  |      |      |                 |
+| Period         | Access to menstrual products within shelters, schools and prisons |      |      |                 |
+| Income         | income pay disparity                                              |      |      |                 |
+| DVStat         | Domestic violence rates                                           |      |      |                 |
+| DV             | access to domestic violence resources                             |      |      |                 |
