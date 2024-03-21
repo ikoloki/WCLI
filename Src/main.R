@@ -1,4 +1,3 @@
 library(tidyverse)
-library(readxl)
 
-resource_table <- tibble()
+resource_table <- 

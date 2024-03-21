@@ -11,8 +11,6 @@ if [[ $# -gt 1 ]]; then
 	default_args=("$@")
 fi
 
-# echo ${#default_args[@]}
-
 i=1
 while [ $i -le ${#default_args[@]} ]
 do
@@ -25,9 +23,11 @@ done
 
 echo Conversion In process
 echo ---------------------
-for file in $(find . -type f ${flags[@]})
+for file in $(find ../Resources/ -type f ${flags[@]})
 do
-  filename=$(echo "$file" | awk -F. '{print $2}')
-  echo -e $file "->" .${filename}.csv
-# sconvert "$file" ".${filename}.csv" --export-type=Gnumeric_stf:stf_csv > dev/null
+	basefile=$(basename $file)
+	dirname=$(dirname $file)
+	filename=$(echo "$basefile" | awk -F. '{print $1}')
+	echo -e $file "->" ${dirname}/${filename}.csv
+	ssconvert "$file" "${dirname}/${filename}.csv" --export-type=Gnumeric_stf:stf_csv > /dev/null 2>&1
 done

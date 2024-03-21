@@ -1,4 +1,3 @@
-* Measured Variables
 | Code           | Variables                                                         | link                                                                                       | Study, Journal,  Code Book |
 |                |                                                                   |                                                                                            |                            |
 | Abortion       | legization and restrictions Abortion                              | https://monqcle.com/upload/63cadb019cd360213f8b4572/download                               |                            |
