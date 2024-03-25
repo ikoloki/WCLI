@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" style = 'width: 100vw; overflow-x: hidden'>
+	<head>
+        <meta charset="UTF-8" />
+        <title>MonQcle | Legal Text Document Analysis Platform</title>
+        <meta property="og:title" content="MonQcle | Legal Text Document Analysis Platform">
+ 
+        <meta name="description" content="MonQcle extracts answers to questions from legal text producing scientifically valid data for those who need to understand changes through time.">
+        <meta property="og:description" content="MonQcle extracts answers to questions from legal text producing scientifically valid data for those who need to understand changes through time.">
+
+        <meta property="og:image" content="/images/monqcle_new.png">
+
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="123">
+        
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Bootstrap 
+    	
+    	some themes
+    	
+    	default:  /css/bootstrap.css
+    	
+    	
+    	previous: /css/bsthemes/paper/bootstrap.min.css
+    	current: /css/bsthemes/spacelab/bootstrap.min.css
+    	
+    	https://bootswatch.com/journal/bootstrap.min.css
+    	https://bootswatch.com/flatly/bootstrap.min.css
+    	https://bootswatch.com/readable/bootstrap.min.css
+    	https://bootswatch.com/superhero/bootstrap.min.css
+    	https://bootswatch.com/yeti/bootstrap.min.css - A BIG MaYBe??
+    	https://bootswatch.com/united/bootstrap.min.css
+    	https://bootswatch.com/simplex/bootstrap.min.css
+    	https://bootswatch.com/sandstone/bootstrap.min.css
+    	https://bootswatch.com/lumen/bootstrap.min.css
+    	https://bootswatch.com/journal/bootstrap.min.css
+    	https://bootswatch.com/darkly/bootstrap.min.css
+    	https://bootswatch.com/cosmo/bootstrap.min.css
+    	https://bootswatch.com/cerulean/bootstrap.min.css
+    	https://bootswatch.com/cyborg/bootstrap.min.css 
+    	
+    	-->
+
+
+		
+
+
+    	<!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+    	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv-printshiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+        
+                           
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        	
+    	        
+    	
+    	
+    </head>
+    <body>
+        
+        
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+  <style type="text/css">
+
+/*     body { */
+/*       background-attachment: fixed; */
+/*       background-color:black; */
+/*       background-image: url('http://adamwhitcroft.com/wp-content/themes/Fifth/img/dot.png'), */
+/*                         url('https://s-media-cache-ak0.pinimg.com/736x/13/16/a6/1316a6ab094aea0f073f916d3797f4c1.jpg'); */
+/*       background-position: 50% 50%; */
+/*       background-size: auto; */
+/*       background-repeat: no-repeat; */
+/*       font-size: 100%; */
+/*     } */
+/*     h1 { */
+/*       background: hsla(0,0%,0%,.75); */
+/*       bottom: 100px; */
+/*       color: #b59788; */
+/*       font-save: 1.3em; */
+/*       font-family: 'Berkshire Swash', cursive; */
+/*       left: 0; */
+/*       padding: .5em 2em .5em 1em; */
+/*       position: absolute; */
+/*     }     */
+  </style>
+  <div class = 'col-md-3'></div>
+  <div class = 'col-md-6'>
+<div class="jumbotron" style='text-align: center'>
+  <h1>Error 404</h1>
+  <img src='/images/404.jpg' style = 'height:200px' />
+  <p>Not found. </p>
+  <p><a class="btn btn-primary btn-lg" href="/user/profile" role="button">Return Home</a></p>
+</div>
+</div>
+  <div class = 'col-md-3'></div>      
+        
+  
+  
+        
+                
+        
+		<!-- Start of HubSpot Embed Code -->
+
+
+	<!-- End of HubSpot Embed Code -->
+
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-62519950-2', 'auto');
+  	ga('send', 'pageview');
+
+	</script>
+	        
+        <div id="myModal" class="modal fade" data-backdrop="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 id="myModalLabel" class="modal-title">Monocle</h2>
+      </div>
+      <div id="myModalBody" class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary hide">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+        <div id="noProfileModal" class="modal fade" data-backdrop="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 id="noProfileModalLabel" class="modal-title">MonQcle | Profile</h4>
+      </div>
+      <div id="noProfileModalBody" class="modal-body">
+        <p>
+        <span class="fa fa-ban fa-5x"></span>
+        </p>
+                <p>
+        	<a href="/legal"><span class="fa fa-file-text-o"></span> Read our fine print!</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary hide">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    </body>
+</html>

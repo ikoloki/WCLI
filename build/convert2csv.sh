@@ -23,7 +23,7 @@ done
 
 echo Conversion In process
 echo ---------------------
-for file in $(find ../Resources/ -type f ${flags[@]})
+for file in $(find ../resources/ -type f ${flags[@]})
 do
 	basefile=$(basename $file)
 	dirname=$(dirname $file)
