@@ -37,7 +37,7 @@ NR > 1 {
 }
 
 END {
-	print "State,UnixTime,Sum,Wholes"
+	print "State,UnixTime,Sum,Holes"
 	for (state in state_array) {
 		print state","state_array[state]
 	 }
