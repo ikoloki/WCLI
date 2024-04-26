@@ -1,5 +1,22 @@
 library(tidyverse)
 library(readr)
+library(tools)
+library(tools)
 
-resource_table <- read.csv("../build/CSV/resource_link_table.csv", header = FALSE, stringsAsFactors = FALSE)
-resource_table <- as.data.frame(resource_table)
+## {
+##     lst <- list()
+##     for (file in list.files('../resources/Clean/')) {
+##         if (file_ext(file) == 'csv') {
+##             lst <- append(lst,list(read.csv(paste('../resources/Clean/',file, sep = ''))))
+##         }
+##     }
+##     lst
+## } |> reduce_left(anti_join
+
+lst <- list()
+
+for (file in list.files("../resources/Clean/")) {
+    if (file_ext(file) == "csv") {
+        lst <- append(lst, list(read_csv(paste("../resources/Clean/", file, sep = ""))))
+    }
+}
