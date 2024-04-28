@@ -1,7 +1,7 @@
 #!/usr/bin/awk -f
 
 BEGIN {
-	print "State,All Race and origins"
+	print "State, Average Pregnacy Age"
 	FS="&#160;<br/>"
 }
 

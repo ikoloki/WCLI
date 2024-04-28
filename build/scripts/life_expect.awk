@@ -4,7 +4,7 @@
 
 BEGIN {
 	FS=","
- 	print "State,Average Age"
+ 	print "State,Average Age Death"
 }
 
 $2 == "Female" {
