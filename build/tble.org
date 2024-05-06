@@ -1,19 +1,5 @@
-* What is this Project
-This project is an analysis on the rights and demographic information for women by state
-
-* How to build
-On Mac OS and *nix you will need the following installed
-- R programming language
-- bash
-- Poppler utils
-- Gnumeric
-
-Simply executing the ./build script in the build folder is enough to run the application
-* Limitations
-This project does not account for racial and LGBTQIA+ status, it generalizes women has a whole and discards both racial and sexual orientation information.
 
 * Measured Variables
-below the variables with links in the links category are the variables that are currently measured 
 | Code           | Variables                                                         | link                                                                                        | Study, Journal,  Code Book                                                                                                                                                                                                                                                                                  |
 |                |                                                                   |                                                                                             |                                                                                                                                                                                                                                                                                                             |
 | Abortion       | legization and restrictions Abortion                              | https://monqcle.com/upload/63cadb019cd360213f8b4572/download                                |                                                                                                                                                                                                                                                                                                             |

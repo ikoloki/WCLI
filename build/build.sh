@@ -1,6 +1,6 @@
 #!/bin/bash
 
-awk -F'|' '{print $2","$4}' ../readme.org | tail -n +4 > ../build/resource_link_table.csv
+awk -F'|' '{print $2","$4}' ../build/tble.org | tail -n +4 > ../build/resource_link_table.csv
 [ -d "../resources/" ] && rm -rf "../resources/"
 
 codes=()
@@ -53,4 +53,16 @@ scripts/./convert2csv.sh
 echo "Processing Abortion Data"
 scripts/./Abortion.R
 
-../src//./clean_data.R
+echo "Cleaning data"
+../src/cleaning/clean_data.R
+
+echo "Processing Data Further"
+cut -d',' -f2- ../resources/Clean/clean-master-data.csv | awk -F, 'BEGIN{OFS=","} {$2=""; print $0}' | sed 's/,,/,/g' | awk 'NR == 1 {print $0} NR > 1 {gsub(/"\."/,"NA",$0); print $0}' | awk '!/("United States"|"District of Columbia")/' |
+	Rscript -e 'data <- read.table(file("stdin"), header = TRUE, sep = ",", na.strings = "NA"); data_numeric <- data[, sapply(data, is.numeric)]; data$WQLI <- rowSums(data_numeric, na.rm = TRUE); write.csv(data, file = "../resources/Clean/tmp.csv", row.names = FALSE)'
+cat ../resources/Clean/tmp.csv > ../resources/Clean/clean-master-data.csv
+rm ../resources/Clean/tmp.csv
+
+cp ../resources/Clean/clean-master-data.csv ../src/app/
+echo "done"
+echo "everything should be up and running"
+echo "you should be able to run the rsconnect script to connect to shiny fine"

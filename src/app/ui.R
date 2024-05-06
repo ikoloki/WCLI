@@ -1,30 +1,37 @@
-ui <- dashboardPage(
-    dashboardHeader(title = "Abortion Data Plot"),
-    dashboardSidebar(
-        sidebarMenu(
-            menuItem("Abortion Data", tabName = "abortion", icon = icon("tree")),
-            menuItem("README", tabName = "readme", icon = icon("book"))
-        )
-  ),
-  dashboardBody(
-    tabItems(
-      tabItem("abortion", 
-              box(
-                plotOutput("plot"), 
-                width = 8),
-              box(
-                selectInput(inputId = "var_y", 
-                            label = "Select Y:", 
-                            choices = colnames(x)[State]),
-                width = 8
-              )
+data <- read.csv("./clean-master-data.csv")
+
+ui <- navbarPage(
+  title = "WQLI - Women's Quality Of Life Index",
+  tabPanel(
+      title = "Visualize Data", icon = icon("bar-chart"),
+      mainPanel(
+          plotOutput("plot")
       ),
-      tabItem("readme",
-              fluidPage(
-                h1("Information"),
-                textOutput("readme_info")
-              )
+),
+
+  tabPanel(
+    title = "Correlation Plot", icon = icon("chart-simple"),
+    sidebarLayout(
+        sidebarPanel(
+            selectInput("corr_plot_x", "Select X axis", choices = colnames(data)),
+            selectInput("corr_plot_y", "Select Y axis", choices = colnames(data))
+        ),
+      mainPanel(
+        plotOutput("correlation_plot")
       )
     )
-  )
+  ),
+
+  tabPanel(
+    title = "Learn More", icon = icon("book"),
+    textOutput("Learn")
+  ),
+
+  tabPanel(
+    title = "Sources", icon = icon("archive"),
+    uiOutput("Sources")
+  ),
+
+  inverse = FALSE,
+  theme = shinytheme("spacelab")
 )
