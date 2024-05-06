@@ -1,0 +1,13 @@
+name: WCLI
+title: WCLI
+username: wcli
+account: wcli
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11723862
+bundleId: 8481390
+url: https://wcli.shinyapps.io/WCLI/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: clean_abortion_data.awk|clean_data.R

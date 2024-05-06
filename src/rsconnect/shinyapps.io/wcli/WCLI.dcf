@@ -1,0 +1,10 @@
+name: WCLI
+title: WCLI
+username: wcli
+account: wcli
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11723862
+bundleId: 8478068
+url: https://wcli.shinyapps.io/WCLI/
+version: 1
