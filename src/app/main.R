@@ -44,10 +44,6 @@ ui <- navbarPage(
 
 server <- function(input, output) {
 
-map_data <- map_data("state")
-
-merged_data <- merge(map_data, data, by.x = "region", by.y = "State", all.x = TRUE)
-
 output$plot <- renderPlot({
     ggplot(data, aes(x = reorder(State, -WQLI), y = WQLI)) +
         geom_bar(stat = "identity", fill = "skyblue") +
